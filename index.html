@@ -115,12 +115,14 @@
     .faq-item { margin-bottom: 20px; }
 
     .team-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; 
       gap: 20px;
     }
 
     .team-card {
+      width: 160px; 
       background-color: #333;
       border: 2px solid #f0c040;
       padding: 15px;
@@ -230,7 +232,7 @@
 
   <!-- TEAM -->
   <section id="team" class="card-pixel">
-    <h2>Tim</h2>
+    <h2>Tim Pengembang</h2>
     <div class="team-grid">
       <div class="team-card"><img src="img/profil.png" alt="Aldan" /><p>Aldan</p></div>
       <div class="team-card"><img src="img/profil.png" alt="Fathi" /><p>Fathi</p></div>
